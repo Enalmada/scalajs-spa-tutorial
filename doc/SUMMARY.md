@@ -11,6 +11,7 @@
         - [Todo module and data flow](todo-module-and-data-flow.md)
         - [Autowire and BooPickle](autowire-and-boopickle.md)
     - [Server side](server-side.md)
+        - [Authentication](server-side-authentication.md)
 - [Testing](testing.md)
 - [Debugging](debugging.md)
 - [Logging](logging.md)

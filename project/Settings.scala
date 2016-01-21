@@ -54,7 +54,8 @@ object Settings {
   val jvmDependencies = Def.setting(Seq(
     "com.vmunier" %% "play-scalajs-scripts" % versions.playScripts,
     "org.webjars" % "font-awesome" % "4.3.0-1" % Provided,
-    "org.webjars" % "bootstrap" % versions.bootstrap % Provided
+    "org.webjars" % "bootstrap" % versions.bootstrap % Provided,
+    "jp.t2v" %% "play2-auth" % "0.14.1"
   ))
 
   /** Dependencies only used by the JS project (note the use of %%% instead of %%) */

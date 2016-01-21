@@ -14,3 +14,8 @@ POST    /api/*path                        controllers.Application.autowireApi(pa
 
 # Logging
 POST /logging                             controllers.Application.logging
+
+# HTTP Basic Auth
+GET         /basic/auth                controllers.BasicAuthController.auth
+GET         /basic/normal              controllers.BasicAuthController.normal
+GET         /basic/admin               controllers.BasicAuthController.admin
